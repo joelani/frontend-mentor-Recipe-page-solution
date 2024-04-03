@@ -1,0 +1,213 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: "outfit", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(243, 229, 216, 1);
+    margin: 0;
+    padding: 13vh 15vw;
+    color: rgba(48, 47, 45, 1);
+    font-size: 1rem;
+}
+.container{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 2rem;
+    padding: 2rem;
+}/*
+header img{
+     
+    border-radius: 1.5rem;
+    margin: 5% 5% 0 5%;
+}*/
+.imgwrap{
+    padding: 1px;
+    
+}
+.img{
+    border-radius: 2rem;
+    width: 100%;
+}
+h1{
+    font-family: "Young Serif", system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgba(48, 47, 45, 1);
+}
+.description{
+    text-align: left;
+}
+.preparation{
+    border-radius: 1rem;
+    background-color: rgba(243, 229, 216, 0.7);
+    padding: 1rem 1.5rem;
+}
+.preparation h2{
+    font-size: 1.2rem;
+    color: rgba(105, 40, 67, 1);
+}
+/*.preparation li{
+    
+}*/
+.bold{
+    font-weight: 700;
+}
+.ingredients{
+    padding: o.7rem 1.1rem;
+    border-bottom: 1px solid rgb(243, 230, 216);
+}
+.ingredients li{
+    list-style-type: disc;
+}
+.title{
+    font-family: "Young Serif", system-ui, sans-serif;
+    color: rgba(126, 71, 49, 1);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.Instructions{
+    border-bottom: 1px solid rgb(243, 230, 216);
+}
+
+li{
+    margin-bottom: 0.6rem;
+}
+.nutrition{
+    padding: 0 1rem;
+}
+.nutrition p{
+    font-size: large;
+    opacity: 0.76;
+    font-weight: 600;
+}
+.table{
+    padding: 0 1.8rem;
+}
+.rows{
+    display: block;
+    border-bottom: 2px solid rgba(126, 71, 49, 0.6);
+}
+.strong, .col{
+    display: inline-block;
+    font-weight: 800;
+    width: 49%;
+    font-size: 1.2rem;
+}
+.strong{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: rgb(107, 42, 17);
+}
+.copy{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: large;
+    font-style: italic;
+    color: rgb(107, 42, 17);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    .attribution { 
+        font-size: 11px;
+        color: hsl(24, 5%, 18%);
+         text-align: center;
+         margin-top: 3rem;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media screen and (max-width: 650px) {
+        body{
+            padding: 0.01rem;
+            background-color: rgba(243, 229, 216, 1);
+            width: 100vw;
+            overflow: hidden;
+        }
+        .container{
+            width: 100vw;
+            padding: 0;
+            border-radius: 0;
+        }
+        .imgwrap{
+            width: 100%;
+            padding: 0;
+            
+        }
+        .img{
+            width: 100%;
+            object-position: center;
+            border-radius: 0;
+        }
+        h1{
+            font-family: "Young Serif", system-ui, sans-serif;
+            font-weight: 600;
+            font-size: 3rem;
+            text-align: left;
+            color: rgba(48, 47, 45, 1);
+            padding: 0 1rem;
+        }
+        .description{
+            text-align: left;
+            font-size: 1.3rem;
+            padding: 0 1rem;
+        }
+        .preparation{
+            padding: 0.6rem;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .preparation h2{
+            font-size: 1.6rem;
+        }
+        
+.ingredients{
+    padding: 0 1rem;
+    border-bottom: 1px solid rgb(243, 230, 216);
+}
+.title{
+    font-family: "Young Serif", system-ui, sans-serif;
+    color: rgba(126, 71, 49, 1);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.Instructions{
+    border-bottom: 2px solid rgb(243, 230, 216);
+}
+
+li{
+    margin-bottom: 0.8rem;
+}
+.nutrition{
+    padding: 0 1rem;
+}
+.nutrition p{
+    font-size: 1.3rem;
+}
+.table{
+    padding: 0 1rem;
+}
+.rows{
+    border-bottom: 2px solid rgba(126, 71, 49, 1);
+}
+.strong, .col{
+    font-size: 1.4rem;
+}
+.strong{
+    font-size: 1.4rem;
+    margin-left: auto;
+}
+.attribution { 
+    font-size: 1rem;
+    color: hsl(24, 5%, 18%);
+     text-align: center;
+     margin-top: 1.7rem;
+     margin-bottom: 1rem;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     font-size: 1.2rem;
+     font-weight: 600;
+     }
+
+    }
+ 
